@@ -7,10 +7,13 @@ python-venv-playground
 
 ### Raspberry pi
 ```bash
+# install these crazy randomly-named stuff 
 sudo apt-get install python3-venv -y
 sudo apt-get install -y python3 python-pip
+sudo apt install python3-pip
 
 # some package need apt-based installation
+# for qt refer to [Install PyQt5 on Raspberry Pi — Install PyQt5 on Raspberry Pi Raspbian](https://www.pythonguis.com/installation/install-pyqt5-raspberry-pi/)
 # sudo apt install python3-pyqt5
 
 python -m venv .venv
