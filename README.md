@@ -6,8 +6,7 @@ python-venv-playground
 - [`.venv`](./.venv) is like `node_modules` in Node.js and should be added to [`.gitignore`](./.gitignore)
 
 ### Raspberry pi
-```
-	
+```bash
 sudo apt-get install python3-venv -y
 sudo apt-get install -y python3 python-pip
 
